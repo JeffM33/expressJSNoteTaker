@@ -16,13 +16,13 @@ app.get('/notes', (req, res) =>{
 });
 
 // getting index.html
-app.get('*', (req, res) =>{
-  res.sendFile(path.join(__dirname, './public/index.html'));
+app.get('/', (req, res) =>{
+  res.sendFile(path.join(__dirname, '/public/index.html'));
 });
 
 // Gets all notes
 app.get('/api/notes', (req, res) => {
-  res.sendFile(path.join(__dirname, './db/db.json'));
+  res.sendFile(path.join(__dirname, '/db/db.json'));
 });
 
 // Getting notes by id
@@ -31,7 +31,7 @@ app.get('/api/notes/:id', (req, res) => {
 });
 
 // Creating the notes
-app.post('./api/notes', (req, res) => {
+app.post('/api/notes', (req, res) => {
   let note = req.body;
   let id = (notes.length).toString();
 
