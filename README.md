@@ -26,7 +26,7 @@ Javascript express
 
 <!-- GETTING STARTED -->
 ## Getting Started
-simply go to the deployed webpage at https://jeffm33.github.io/expressJSNoteTaker/ There you can navagate the the note page and write in your notes. You can save them with the floppy disc icon in the top right corner. From there if you click on a note on the left hand side you can see what what was written in the note. To delete the note simply click on the delete trash can icon next to the note. 
+simply go to the deployed webpage at https://express-js-note-taker-jeffm33.herokuapp.com/ There you can navagate the the note page and write in your notes. You can save them with the floppy disc icon in the top right corner. From there if you click on a note on the left hand side you can see what what was written in the note. To delete the note simply click on the delete trash can icon next to the note. 
 
 To get a local copy up and running follow these simple steps.
 
